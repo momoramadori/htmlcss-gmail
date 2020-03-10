@@ -1,0 +1,76 @@
+/*reset impostazioni browser*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 50%;
+    background-image: url(img/sfondo.png);
+    background-size: cover;
+    color: rgb(144,156,176);
+    border-color: white;
+}
+header {
+    border-bottom: 2px solid;
+    padding: 10px;
+}
+header img {
+    width: 80px;
+    vertical-align: middle;
+}
+header h1 {
+    display: inline-block;
+    padding-left: 5px;
+}
+footer p {
+    text-align: center;
+}
+.notification {
+    margin-top: 15px;
+}
+.emails{
+    margin-top: 15px;
+    padding: 7px 0px 7px 0px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+.row {
+    border: 1px solid;
+    padding: 3px;
+    background-color: rgb(180,180,180);
+}
+.oggetto-mail {
+    font-weight: bold;
+    color: rgb(18,20,38);
+}
+.testo-secondario {
+    color: rgb(91, 91, 91);
+}
+#bottone {
+    padding: 2px 3px;
+}
+#ricerca {
+    margin-top: 10px;
+}
+#numero-mail {
+	width:80px;
+	height:80px;
+	border-radius:40px;
+    padding: 10px;
+	background-color: rgb(173,38,33);
+    text-align: center;
+    vertical-align: middle;    
+}
+#gmail {
+    font-weight: bold;
+    font-size: 25px;
+}
+#developer {
+    font-style: italic;
+}
+#readed-mail {
+    background-color: white;
+}
