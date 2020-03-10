@@ -7,15 +7,27 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-    width: 50%;
-    background-image: url(img/sfondo.png);
+    width: 60%;
     background-size: cover;
     color: rgb(144,156,176);
     border-color: white;
+    background-image: url(../img/sfondo.png);
 }
 header {
     border-bottom: 2px solid;
     padding: 10px;
+}
+form {
+    display: block;
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: rgb(173,38,33);
+    text-align: center;
+    border-radius: 10px;
+}
+form p {
+    padding: 5px;
+    color: white;
 }
 header img {
     width: 80px;
@@ -25,8 +37,10 @@ header h1 {
     display: inline-block;
     padding-left: 5px;
 }
-footer p {
+footer {
     text-align: center;
+    margin: 5px 0px;
+    border-top: 2px solid rgb(144,156,176);
 }
 .notification {
     margin-top: 15px;
@@ -49,6 +63,16 @@ footer p {
 .testo-secondario {
     color: rgb(91, 91, 91);
 }
+.readed-mail {
+    background-color: white;
+}
+#casella {
+    width: 50%;
+}
+#menu {
+    display: inline-block;
+
+}
 #bottone {
     padding: 2px 3px;
 }
@@ -62,7 +86,7 @@ footer p {
     padding: 10px;
 	background-color: rgb(173,38,33);
     text-align: center;
-    vertical-align: middle;    
+    vertical-align: middle;
 }
 #gmail {
     font-weight: bold;
@@ -71,6 +95,6 @@ footer p {
 #developer {
     font-style: italic;
 }
-#readed-mail {
-    background-color: white;
+#link-form {
+    font-size: 10px;
 }
