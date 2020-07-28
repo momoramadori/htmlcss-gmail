@@ -1,1 +1,1 @@
- #1 : Replica superbase del client Gmail.
+ # #1: Replica base del client Gmail
